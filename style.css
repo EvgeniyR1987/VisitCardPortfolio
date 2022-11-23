@@ -7,8 +7,6 @@
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -88,14 +86,21 @@ h6 {
 }
 
 .ibg {
-  background: center cover no-repeat;
+  position: relative;
+}
+
+.ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .wrapper {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   font-size: 0;
   width: 100%;
@@ -105,10 +110,6 @@ h6 {
 }
 
 .mainblock {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   font-size: 0;
   justify-content: center;
