@@ -162,8 +162,11 @@ h6 {
   align-items: center;
   justify-content: space-between;
 }
+.mainblock__logo {
+  margin: 0px 0px 70px 0px;
+}
 .mainblock__text {
-  color: #ffffff;
+  color: #000;
   position: relative;
   padding: 0px 0px 45px 0px;
   margin: 30px 0px;
