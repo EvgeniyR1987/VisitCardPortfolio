@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -132,6 +133,10 @@ h6 {
   flex-direction: column;
 }
 
+body {
+  font-family: Roboto;
+}
+
 .mainblock {
   display: -webkit-box;
   display: -moz-box;
@@ -163,7 +168,7 @@ h6 {
   justify-content: space-between;
 }
 .mainblock__logo {
-  margin: 0px 0px 70px 0px;
+  margin: 0px 0px 50px 0px;
 }
 .mainblock__text {
   color: #000;
@@ -187,11 +192,11 @@ h6 {
   line-height: 118%;
   text-transform: uppercase;
   letter-spacing: 5.43px;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 5px 0px;
 }
 .mainblock__subtitle {
   font-weigth: 400;
-  font-size: 26px;
+  font-size: 17px;
   line-height: 118%;
   text-transform: uppercase;
   letter-spacing: 4.15px;
