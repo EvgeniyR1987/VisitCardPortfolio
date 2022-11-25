@@ -168,10 +168,10 @@ body {
   justify-content: space-between;
 }
 .mainblock__logo {
-  margin: 0px 0px 65px 0px;
+  margin: 0px 0px 50px 0px;
 }
 .mainblock__text {
-  color: #000;
+  color: #fff;
   position: relative;
   padding: 0px 0px 45px 0px;
   margin: 30px 0px;
