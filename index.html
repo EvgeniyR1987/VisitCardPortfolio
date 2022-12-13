@@ -4,29 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/baguetteBox.css">
+  <link rel="stylesheet" href="css/baguetteBox.min.css">
   <link rel="stylesheet" href="style.css">
-  <style>.gallery:after {
-    content: '';
-    display: block;
-    height: 2px;
-    margin: .5em 0 1.4em;
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
-}
-
-.gallery img {
-    height: 100%;
-}
-
-.gallery a {
-    width: 240px;
-    height: 180px;
-    display: inline-block;
-    overflow: hidden;
-    margin: 4px 6px;
-    box-shadow: 0 0 4px -1px #000;
-}</style>
   <title>VisitCardPortfolio</title>
 </head>
 <body>
@@ -111,7 +90,6 @@
              </ul>
            </nav>
            <div class="portfolio__items">
-             <pre><code class="js">baguetteBox.run('.gallery');</code></pre>
               <div class="gallery">
              <div class="portfolio__column">
                <a href="https://github.com/EvgeniyR1987/VisitCardPortfolio/blob/main/01.jpg?raw=true" data-caption="Caption 1" class="portfolio__item"><img src="https://github.com/EvgeniyR1987/VisitCardPortfolio/blob/main/01.jpg?raw=true" alt=""/></a>
@@ -140,12 +118,7 @@
          </div>
        </div>
     </div>
-<script src="js/baguetteBox.js" async></script>
-  <script>window.onload = function() {
-    baguetteBox.run('.gallery'); {
-        animation: 'fadeIn',
-        noScrollbars: true
-    });</script>
+<script src="js/baguetteBox.min.js" async></script>
   <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
   <script src="script.js"></script>
 </body>
