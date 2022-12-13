@@ -6,4 +6,3 @@ function mainblock(){
       $('.mainblock').css('min-height',h);
 }
       mainblock();
-baguetteBox.run('.gallery');
