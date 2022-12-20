@@ -20,8 +20,8 @@
           <div class="mainblock__subtitle">Ваш сайт под ключ</div>
         </div>
         <div class="mainblock__footer">
-          <a href="" class="mainblock__btn btn btn_w"><span>Дальше</span></a>
-          <a href="" class="mainblock__arrow"><img src="https://github.com/EvgeniyR1987/VisitCardPortfolio/blob/main/arrow_down.png?raw=true" alt="arrow"/></a>
+          <a href="#content" class="mainblock__btn btn btn_w scrollto"><span>Дальше</span></a>
+          <a href="#content" class="mainblock__arrow scrollto"><img src="https://github.com/EvgeniyR1987/VisitCardPortfolio/blob/main/arrow_down.png?raw=true" alt="arrow"/></a>
         </div>
       </div>
       </div>
@@ -29,7 +29,7 @@
       <img src="https://github.com/EvgeniyR1987/VisitCardPortfolio/blob/main/cover1.jpg?raw=true" alt="cover"/>
       </div>
       </div>
-     <div class="content">
+     <div class="content" id="content">
        <div class="menu menu_mb">
      <div class="container">
        <nav class="menu__items">
@@ -140,12 +140,73 @@
          </div>
          </div>
          </div>
+       <div class="contacts">
+         <div class="container">
+         <div class="contacts__header-block header-block">
+         <div class="header-block__title">КОНТАКТЫ</div>
+         </div>
+           <div class="contacts__body">
+             <div class="contacts__column">
+               <form action="#" id="form" class="contacts__form form-contacts">
+                 <div class="form-contacts__body">
+                 <div class="form-contacts__row">
+                   <div class="form-contacts__column">
+                     <div class="form-contacts__input">
+                     <div class="form-contacts__label">ВАШЕ ИМЯ*</div>
+                     <input autocomplete="off" type="text" name="name" id="formName" class="input _req"/>
+                   </div>
+                     </div>
+                   <div class="form-contacts__column">
+                     <div class="form-contacts__input">
+                      <div class="form-contacts__label">ВАШ E-MAIL*</div>
+                     <input autocomplete="off" type="text" name="email" id="formEmail" class="input _req _email"/>
+                   </div>
+                   </div>
+                 </div>
+                 <div class="form-contacts__input">
+                   <div class="form-contacts__label">СООБЩЕНИЕ</div>
+                   <textarea autocomplete="off" name="message" class="input" id="formMessage"></textarea>
+                 </div>
+                   <button type="submit" class="form-contacts__btn btn btn_b"><span>ОТПРАВИТЬ</span></button>
+                   </div>
+               </form>
+             </div>
+             <div class="contacts__column">
+               <div class="contacts__content">
+                 <div class="contacts__text">Есть идея проекта или Вы просто смотрите какие есть возможности? Мы здесь чтобы помочь Вам.</div>
+                 <div class="contacts__name">Евгений</div>
+                 <div class="contacts__social social">
+                   <a href="" class="social__item"><img src="https://github.com/EvgeniyR1987/VisitCardPortfolio/blob/main/5279112_camera_instagram_social%20media_instagram%20logo_icon.png?raw=true" alt=""/></a>
+                   <a href="" class="social__item"><img src="https://github.com/EvgeniyR1987/VisitCardPortfolio/blob/main/5279121_call_chat_messenger_whatsapp_whatsapp%20logo_icon.png?raw=true" alt=""/></a>
+                 </div>
+                 <div class="contacts__email">Отправьте нам письмо на e-mail: <a href="mailto:comandatt@yandex.ru">comandatt@yandex.ru</a></div>
+               </div>
+             </div>
+           </div>
+         </div>
+         </div>
        </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__body">
+          <a href="" class="footer__logo"><img src="https://github.com/EvgeniyR1987/VisitCardPortfolio/blob/main/logo_footer-transformed.png?raw=true" alt=""/></a>
+          <nav class="footer__menu">
+            <ul class="footer__list">
+              <li><a href="" class="footer__link">Домой</a></li>
+              <li><a href="" class="footer__link">Instagram</a></li>
+              <li><a href="" class="footer__link">What`s App</a></li>
+              <li><a href="" class="footer__link">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="footer__text">Все права защищены</div>
+        </div>
+      </div>
+    </footer>
     </div>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.js">
 </script>
-  <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 </html>
