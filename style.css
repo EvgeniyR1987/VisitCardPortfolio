@@ -106,6 +106,7 @@ h6 {
 .btn {
   display: inline-block;
   padding: 0px 42px;
+  background-color: transparent;
   line-height: 275%;
   height: 47px;
   text-transform: uppercase;
@@ -669,3 +670,233 @@ body {
     padding: 0px 30px;
   }
 }
+
+.contacts {
+  background-color: #f3f3f3;
+  padding: 180px 0px 80px 0px;
+}
+@media (max-width: 992px) {
+  .contacts {
+    padding: 80px 0px 50px 0px;
+  }
+}
+@media (max-width: 767px) {
+  .contacts {
+    padding: 30px 0px 30px 0px;
+  }
+}
+.contacts__header-block {
+  margin: 0px 0px 120px 0px;
+}
+@media (max-width: 992px) {
+  .contacts__header-block {
+    margin: 0px 0px 50px 0px;
+  }
+}
+@media (max-width: 767px) {
+  .contacts__header-block {
+    margin: 0px 0px 30px 0px;
+  }
+}
+.contacts__body {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  margin: 0px -25px;
+}
+@media (max-width: 767px) {
+  .contacts__body {
+    display: block;
+  }
+}
+.contacts__column {
+  flex: 0 1 50%;
+  padding: 0px 25px;
+}
+.contacts__form {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .contacts__form {
+    text-align: left;
+    margin: 0px 0px 30px 0px;
+  }
+}
+.contacts__content {
+  max-width: 260px;
+}
+@media (max-width: 767px) {
+  .contacts__content {
+    max-width: none;
+  }
+}
+.contacts__text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 185%;
+  margin: 0px 0px 35px 0px;
+}
+.contacts__name {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0px 0px 25px 0px;
+}
+.contacts__email {
+  font-size: 14px;
+}
+.contacts__email a {
+  font-weight: 700;
+  color: #000;
+}
+.contacts__email a:hover {
+  text-decoration: underline;
+}
+
+.form-contacts__body {
+  display: inline-block;
+  width: 100%;
+  max-width: 385px;
+}
+@media (max-width: 767px) {
+  .form-contacts__body {
+    max-width: none;
+    display: block;
+  }
+}
+.form-contacts__row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  margin: 0px -15px 70px -15px;
+}
+@media (max-width: 767px) {
+  .form-contacts__row {
+    margin: 0px -15px 30px -15px;
+  }
+}
+@media (max-width: 479px) {
+  .form-contacts__row {
+    display: block;
+  }
+}
+.form-contacts__column {
+  flex: 0 1 50%;
+  padding: 0px 15px;
+}
+@media (max-width: 479px) {
+  .form-contacts__column:first-child {
+    margin: 0px 0px 30px 0px;
+  }
+}
+.form-contacts__label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0px 0px 10px 0px;
+  text-transform: uppercase;
+}
+.form-contacts__btn.btn {
+  margin: 35px 0px 0px 0px;
+}
+@media (max-width: 767px) {
+  .form-contacts__btn.btn {
+    display: block;
+    width: 100%;
+  }
+}
+
+.social {
+  margin: 0px 0px 15px 0px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+}
+.social__item {
+  margin: 0px 15px 0px 0px;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.input {
+  position: relative;
+  border-top: 1px solid #000;
+  height: 50px;
+  border-radius: 0 !important;
+  width: 100%;
+  font-size: 15px;
+  display: block;
+  padding: 0px 20px;
+  background-color: #f8f7f7;
+}
+.input:focus {
+  border-top: 1px solid blue;
+}
+.input._error {
+  border-top: 1px solid red;
+}
+
+textarea.input {
+  resize: none;
+  height: 117px;
+  padding: 10px 20px;
+}
+
+.footer {
+  background-color: #3c3c3c;
+  padding: 45px 0px;
+  position: relative;
+  z-index: 5;
+}
+.footer__body {
+  text-align: center;
+}
+.footer__logo {
+  display: inline-block;
+  margin: 0px 0px 40px 0px;
+}
+.footer__menu {
+  text-align: center;
+}
+.footer__list {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 35px 0px;
+}
+.footer__list li {
+  margin: 0px 15px;
+}
+.footer__link {
+  color: #a4a4a4;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer__link:hover {
+  color: #fff;
+}
+.footer__text {
+  color: #6c6c6c;
+  font-size: 14px;
+}
+
+/*html {
+  scroll-behavior: smooth;
+}*/
