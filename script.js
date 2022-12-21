@@ -29,7 +29,7 @@ $(window).scroll(function(event) {
   $('.mainblock__image').css('transform', 'translate3d(0, '+s+'px, 0)');
 });
 /*Scroll down slow*/
-$('.a scrollto').find('a').click(function(event){
+$('.a-scrollto').find('a').click(function(event){
         event.preventDefault();
         $('.content').animate({
      scrollTop: $( $.attr(this, 'href') ).position().top + $('.content').scrollTop()
