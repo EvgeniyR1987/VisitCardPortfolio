@@ -29,13 +29,12 @@ $(window).scroll(function(event) {
   $('.mainblock__image').css('transform', 'translate3d(0, '+s+'px, 0)');
 });
 /*Scroll down slow*/
-$(document).ready(function(){
-	$('a.scrollto').click(function () {
-		elementClick = $(this).attr('href');
-		destination = $(elementClick).position().top;
-		$('body,html').animate({scrollTop: destination }, 1000);
-	});
-});
+$('.a scrollto').find('a').click(function(event){
+        event.preventDefault();
+        $('.content').animate({
+     scrollTop: $( $.attr(this, 'href') ).position().top + $('.content').scrollTop()
+     }, 500);       
+  });
 /*Form send*/
 "use strict"
 document.addEventListener("DOMContentLoaded", function () {
