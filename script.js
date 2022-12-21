@@ -32,7 +32,7 @@ $(window).scroll(function(event) {
 $(document).ready(function(){
 	$('a.scrollto').click(function () {
 		elementClick = $(this).attr('href');
-		destination = $(elementClick).offset().top;
+		destination = $(elementClick).position().top;
 		$('body,html').animate({scrollTop: destination }, 1000);
 	});
 });
