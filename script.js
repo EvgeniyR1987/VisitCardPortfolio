@@ -29,10 +29,12 @@ $(window).scroll(function(event) {
   $('.mainblock__image').css('transform', 'translate3d(0, '+s+'px, 0)');
 });
 /*Scroll down slow*/
-$("#content").click(function() {
- $('html, body').animate({
- scrollTop: $(".content").offset().top
- }, 1000);
+$('a[href*="#"]').on('click', function (e) {
+  e.preventDefault();
+ 
+  $('html, body').animate({
+    scrollTop: $($(this).attr('href')).offset().top
+  }, 500, 'linear');
 });
 /*Form send*/
 "use strict"
