@@ -29,11 +29,10 @@ $(window).scroll(function(event) {
   $('.mainblock__image').css('transform', 'translate3d(0, '+s+'px, 0)');
 });
 /*Scroll down slow*/
-$('a[href*=#]').click(function(event){
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
-    event.preventDefault();
+$("#content").click(function() {
+ $('html, body').animate({
+ scrollTop: $(".content").offset().top
+ }, 1000);
 });
 /*Form send*/
 "use strict"
