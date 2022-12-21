@@ -31,11 +31,17 @@ $(window).scroll(function(event) {
 /*Scroll down slow*/
 $('a[href*="#"]').on('click', function (e) {
   e.preventDefault();
- 
   $('html, body').animate({
     scrollTop: $($(this).attr('href')).offset().top
   }, 500, 'linear');
 });
+/*$(document).ready(function(){
+	$('a.scrollto').click(function () {
+		elementClick = $(this).attr('href');
+		destination = $(elementClick).offset().top;
+		$('body,html').animate({scrollTop: destination }, 1000);
+	});
+});*/
 /*Form send*/
 "use strict"
 document.addEventListener("DOMContentLoaded", function () {
