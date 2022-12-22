@@ -167,6 +167,8 @@ h6 {
   min-height: 100%;
   overflow: hidden;
   flex-direction: column;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 body {
