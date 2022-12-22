@@ -35,16 +35,6 @@ $('a[href*="#"]').on('click', function (e) {
     scrollTop: $($(this).attr('href')).offset().top
   }, 500, 'linear');
 });
-$(document).ready(function() { 
-if(navigator.userAgent.match(/Trident\/7\./)) {
-        $('body').on("mousewheel", function () {
-            event.preventDefault();
-            var wd = event.wheelDelta;
-            var csp = window.pageYOffset;
-            window.scrollTo(0, csp - wd);
-        });
-}
-});
 /*Form send*/
 "use strict"
 document.addEventListener("DOMContentLoaded", function () {
