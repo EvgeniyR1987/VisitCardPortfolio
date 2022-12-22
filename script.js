@@ -10,7 +10,7 @@ function mainblock(){
 /*Gallery image*/
 const gallery = baguetteBox.run('.gallery', {
 });
-/*Filter image*/
+/*Filter images*/
 $('.filter__item').click(function(event) {
   var i=$(this).data('filter');
   if (i==1) {
@@ -28,19 +28,22 @@ $(window).scroll(function(event) {
   var s=0-$(this).scrollTop()/3;
   $('.mainblock__image').css('transform', 'translate3d(0, '+s+'px, 0)');
 });
-/*Scroll down slow*/
+/*Scroll down/up slow*/
 $('a[href*="#"]').on('click', function (e) {
   e.preventDefault();
   $('html, body').animate({
     scrollTop: $($(this).attr('href')).offset().top
   }, 500, 'linear');
 });
-/*$(document).ready(function(){
-	$('a.scrollto').click(function () {
-		elementClick = $(this).attr('href');
-		destination = $(elementClick).offset().top;
-		$('body,html').animate({scrollTop: destination }, 1000);
-	});
+/*$(document).ready(function() { 
+if(navigator.userAgent.match(/Trident\/7\./)) {
+        $('body').on("mousewheel", function () {
+            event.preventDefault();
+            var wd = event.wheelDelta;
+            var csp = window.pageYOffset;
+            window.scrollTo(0, csp - wd);
+        });
+}
 });*/
 /*Form send*/
 "use strict"
