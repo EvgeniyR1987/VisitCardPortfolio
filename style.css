@@ -896,12 +896,6 @@ textarea.input {
   color: #6c6c6c;
   font-size: 14px;
 }
-html {
-    position: relative;
-}
-body {
-    position: relative;
-}
 
 /*html {
   scroll-behavior: smooth;
