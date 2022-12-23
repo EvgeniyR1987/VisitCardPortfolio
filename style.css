@@ -896,6 +896,14 @@ textarea.input {
   color: #6c6c6c;
   font-size: 14px;
 }
+html {
+    overflow: hidden;
+    position: relative;
+}
+body {
+    overflow: auto;
+    position: relative;
+}
 
 /*html {
   scroll-behavior: smooth;
